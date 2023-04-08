@@ -1,0 +1,22 @@
+{
+  "name": "express-js-note-taker",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cjmoye30/ExpressJS-Note-Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cjmoye30/ExpressJS-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Cjmoye30/ExpressJS-Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
