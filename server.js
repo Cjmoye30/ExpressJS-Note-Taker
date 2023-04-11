@@ -1,7 +1,5 @@
 // boilerplate requirements
 const express = require('express');
-const fs = require('fs');
-
 const path = require('path');
 const { readAndAppend, readFromFile } = require('./fsUtils');
 
@@ -37,11 +35,16 @@ app.get('/notes', (req, res) => {
 // API Routes
 // get all notes from the database
 app.get('/api/notes', (req, res) => {
+  // readFromFile('./db/db.json').then((data) => res.json(data));
   res.json(notesData);
 })
 
 // create const variable to store the body elements (note-title and note-textarea)
 // I need to actually write this info into the database file - the frontend should already be solved where the save button then regiesters this information
+
+// Give each note a unique ID
+
+// need to get all the previous tips pulled after the resquest is hit so that they can display on the side of the page
 app.post('/api/notes', (req, res) => {
 
   console.log(`A ${req.method} method was hit!`)
@@ -51,10 +54,9 @@ app.post('/api/notes', (req, res) => {
   if(req.body && req.body.title && req.body.text) {
     newNote = {
       title: req.body.title,
-      text: req.body.text
+      text: req.body.text,
+      note_id: uuid()
     };
-
-    // const noteString = JSON.stringify(newNote);
 
     readAndAppend(newNote, `./db/db.json`)
     res.send();
