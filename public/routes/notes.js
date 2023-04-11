@@ -2,14 +2,18 @@ const notesRouter = require('express').Router();
 const { readFromFile, readAndAppend } = require('../../fsUtils');
 
 // import and testing the uuid function/method
-// const { v4: uuidv4 } = require('uuid');
-// console.log(`Here is a test v4 uuid: ${uuid.v4()}`);
+const { v4: uuidv4 } = require('uuid');
+console.log(`Here is a test v4 uuid: ${uuidv4()}`);
 
 notesRouter.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 
     // res.sendFile(path.join(__dirname, 'public/notes.html'))
   })
+
+
+
+//   Create a get route for a specific uuid on click?
   
   // get all notes from the database
 //   notes.get('/api/notes', (req, res) => {
@@ -33,7 +37,7 @@ notesRouter.get('/', (req, res) => {
       newNote = {
         title: req.body.title,
         text: req.body.text,
-        // note_id: uuid()
+        id: uuidv4()
       };
   
       readAndAppend(newNote, `./db/db.json`)

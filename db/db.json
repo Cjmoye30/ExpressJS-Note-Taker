@@ -1,22 +1,17 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
+        "title": "I need the note I click on",
+        "text": "to become active",
+        "id": "b9660c60-1cdc-42b6-86fd-dfa8fdf2c48b"
     },
     {
-        "title": "Get homework done",
-        "text": "get it done so you don't get behind"
+        "title": "MVP Met?",
+        "text": "I just needed to set an id I believe\n",
+        "id": "4ecacc93-0c18-416b-b312-081f58630277"
     },
     {
-        "title": "hello?",
-        "text": "does this work"
-    },
-    {
-        "title": "Finish homework",
-        "text": "Finish homework on time so you do not have anxiety before your birthday"
-    },
-    {
-        "title": ";kldsfj;a",
-        "text": "ldkafj"
+        "title": "MVP is indeed met",
+        "text": "Send it to Heroku",
+        "id": "dce44de8-cb03-4043-aeea-67d8f0550138"
     }
 ]
