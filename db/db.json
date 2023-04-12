@@ -33,5 +33,10 @@
         "title": "Turn in project",
         "text": "Ready for Heroku deployment",
         "id": "3ddd8b83-ee91-42a7-9ccd-1e49c1fa7fa9"
+    },
+    {
+        "title": "Inevitably break code",
+        "text": "Wipe away tears and practice git checkout <commit-id> .",
+        "id": "13133386-6876-4d7c-8646-679fdc16dd4f"
     }
 ]
