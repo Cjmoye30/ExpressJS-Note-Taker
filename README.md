@@ -21,7 +21,7 @@
 
   ### Screenshots: 
 
-  - [Note Taker Live Site](https://cjmoye30.github.io/ExpressJS-Note-Taker/)
+  - [Note Taker - Heroku Deployment]()
   - Screenshot(s):
   ![Screenshot 1 - All notes with blank canvas for new note](/public/assets/images/expressjs-1.png)
   ![Screenshot 2 - Previous note populates after clicking it from the left pannel](/public/assets/images/expressjs-2.png)
