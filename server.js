@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// Get route for the notes page
+// Get route for the feedback page
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/notes.html'))
 })
