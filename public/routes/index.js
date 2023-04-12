@@ -7,4 +7,5 @@ const app = express();
 
 app.use('/notes', notesRouter);
 
+// Exporting the index module to be used in the server
 module.exports = app;
