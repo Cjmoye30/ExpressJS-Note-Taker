@@ -67,8 +67,6 @@ const renderActiveNote = () => {
 };
 
 const handleNoteSave = () => {
-  alert("save button was pressed!")
-  console.log("Hello!!");
   const newNote = {
     title: noteTitle.value,
     text: noteText.value,
