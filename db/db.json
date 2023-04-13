@@ -38,5 +38,10 @@
         "title": "Inevitably break code",
         "text": "Wipe away tears and practice git checkout <commit-id> .",
         "id": "13133386-6876-4d7c-8646-679fdc16dd4f"
+    },
+    {
+        "title": "Figure out heroku",
+        "text": "I still have a laptop thankfully - cannot figure out heroku",
+        "id": "bb23a216-8aa8-4e55-af5f-07aeead72926"
     }
 ]
