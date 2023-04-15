@@ -16,12 +16,11 @@
   
   ### Description:
 
-  - An application which uses Express.js on the backend to save and retrieve notes for the user. This is a full-stack application with an easy to navigate UI with only an index and notes page for HTML. User data is stored in a JSON file.
-
+  - An application which uses Express.js on the backend to save and retrieve notes for the user. This is a full-stack application with an easy to navigate UI with only an index and notes page for HTML. User data is stored and retrieved from a JSON file so we do not have to use local storage.
 
   ### Screenshots: 
 
-  - [Note Taker - Heroku Deployment]()
+  - [Note Taker - Heroku Deployment](https://guarded-dusk-39770.herokuapp.com/)
   - Screenshot(s):
   ![Screenshot 1 - All notes with blank canvas for new note](/public/assets/images/expressjs-1.png)
   ![Screenshot 2 - Previous note populates after clicking it from the left pannel](/public/assets/images/expressjs-2.png)
